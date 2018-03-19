@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <title>Datos Transparentes</title>
+    <meta name="description" content="Creemos que el acceso a la información y por esa razón usamos la tecnología como herramienta para que ciudadanos, periodistas y otros profesionales puedan fiscalizar al poder político y económico del país." />
+    <meta name="keywords" content="transparencia, datos, periodismo, buscador, ciudadanos, sociedad civil, tecnología, poder, chile, economía" />
+    <meta property="og:url" content="http://www.datostransparentes.cl" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Datos Transparentes" />
+    <meta property="og:description" content="Creemos que el acceso a la información y por esa razón usamos la tecnología como herramienta para que ciudadanos, periodistas y otros profesionales puedan fiscalizar al poder político y económico del país." />
+    <meta property="og:image" content="http://www.datostransparentes.cl/images/Datos.png" />
+
+</head>
+<body>
+    <div class="container">
+        <nav class="row">
+            <div class="col-12">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link @ViewBag.aulixHome" href="../../../">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link @ViewBag.aulix" href="../../Home/About">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        @RenderBody()
+
+        <footer>
+            <p class="text-center">&copy; @DateTime.Now.Year - Datos Transparentes</p>
+            <p class="text-center"><a href="https://www.enlalupa.cl/"><img class="img-fluid" src="~/Content/images/logo-enlalupa.png" /></a></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <script src="~/Scripts/info.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

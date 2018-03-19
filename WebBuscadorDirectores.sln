@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBuscadorDirectores", "WebBuscadorDirectores\WebBuscadorDirectores.csproj", "{07D0ACA7-6930-4518-B6D6-9A4EFF3B6C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D0ACA7-6930-4518-B6D6-9A4EFF3B6C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D0ACA7-6930-4518-B6D6-9A4EFF3B6C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D0ACA7-6930-4518-B6D6-9A4EFF3B6C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D0ACA7-6930-4518-B6D6-9A4EFF3B6C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1101F0A-9B4A-44A7-8281-9F9A9438CEC7}
+	EndGlobalSection
+EndGlobal

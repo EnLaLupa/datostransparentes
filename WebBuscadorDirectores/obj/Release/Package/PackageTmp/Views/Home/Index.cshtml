@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Buscador";
+    ViewBag.aulixHome = "active";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    <img src="~/Content/images/logo.png" class="img-fluid" />
+                </p>
+            </div>
+            <div class="col-md-10">
+                <div class="input-group" id="prefetch">
+                        <input id="input-Elegido" class="typeahead form-control" type="text" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Ingrese Persona o empresa">
+                   
+                    @*<input list="Nombres" id="input-Elegido" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">*@
+                    
+                </div>
+
+                @*<datalist id="Nombres">
+                    <option value="PABLO TURNER GONZALEZ - AD RETAIL S.A.">7.056.349-5</option>
+                    <option value="Amarillo"></option>
+                    <option value="Burdeos"></option>
+                    <option value="Caoba"></option>
+                    <option value="Marrón"></option>
+                    <option value="Naranja"></option>
+                    <option value="Verde"></option>
+                </datalist>*@
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-btn-verde" onclick="buscar()" type="button">Buscar</button>
+            </div>
+        </div>
+        @*<div id="prefetch">
+            <input class="typeahead form-control" type="text" placeholder="Ingrese Persona o empresa">
+        </div>*@
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row" id="detalle"></div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+

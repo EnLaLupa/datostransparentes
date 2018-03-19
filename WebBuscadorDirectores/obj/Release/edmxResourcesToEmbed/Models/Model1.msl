@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CmfChileModelStoreContainer" CdmEntityContainer="CmfChileEntities">
+    <EntitySetMapping Name="ListadoDirectores">
+      <EntityTypeMapping TypeName="CmfChileModel.ListadoDirectores">
+        <MappingFragment StoreEntitySet="ListadoDirectores">
+          <ScalarProperty Name="IdListadoDirectores" ColumnName="IdListadoDirectores" />
+          <ScalarProperty Name="IdListadoFiscalizados" ColumnName="IdListadoFiscalizados" />
+          <ScalarProperty Name="DateScraping" ColumnName="DateScraping" />
+          <ScalarProperty Name="Rut" ColumnName="Rut" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="FechaNombramiento" ColumnName="FechaNombramiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListadoFiscalizados">
+      <EntityTypeMapping TypeName="CmfChileModel.ListadoFiscalizados">
+        <MappingFragment StoreEntitySet="ListadoFiscalizados">
+          <ScalarProperty Name="IdListadoFiscalizados" ColumnName="IdListadoFiscalizados" />
+          <ScalarProperty Name="DateScraping" ColumnName="DateScraping" />
+          <ScalarProperty Name="Rut" ColumnName="Rut" />
+          <ScalarProperty Name="Entidad" ColumnName="Entidad" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="UrlRegistroDirector" ColumnName="UrlRegistroDirector" />
+          <ScalarProperty Name="UrlListadoEmisor" ColumnName="UrlListadoEmisor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListadoBusqueda">
+      <EntityTypeMapping TypeName="CmfChileModel.ListadoBusqueda">
+        <MappingFragment StoreEntitySet="ListadoBusqueda">
+          <ScalarProperty Name="busqueda" ColumnName="busqueda" />
+          <ScalarProperty Name="Rut" ColumnName="Rut" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
