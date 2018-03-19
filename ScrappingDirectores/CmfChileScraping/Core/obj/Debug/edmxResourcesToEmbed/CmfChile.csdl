@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CmfChileModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CmfChileEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ListadoDirectores" EntityType="CmfChileModel.ListadoDirectores" />
+    <EntitySet Name="ListadoFiscalizados" EntityType="CmfChileModel.ListadoFiscalizados" />
+    <AssociationSet Name="FK__ListadoDi__Lista__1B0907CE" Association="CmfChileModel.FK__ListadoDi__Lista__1B0907CE">
+      <End Role="ListadoFiscalizados" EntitySet="ListadoFiscalizados" />
+      <End Role="ListadoDirectores" EntitySet="ListadoDirectores" />
+    </AssociationSet>
+    <FunctionImport Name="ClearTables" />
+  </EntityContainer>
+  <EntityType Name="ListadoDirectores">
+    <Key>
+      <PropertyRef Name="IdListadoDirectores" />
+    </Key>
+    <Property Name="IdListadoDirectores" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdListadoFiscalizados" Type="Int64" />
+    <Property Name="DateScraping" Type="DateTime" Precision="3" />
+    <Property Name="Rut" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Nombre" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Cargo" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FechaNombramiento" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ListadoFiscalizados" Relationship="CmfChileModel.FK__ListadoDi__Lista__1B0907CE" FromRole="ListadoDirectores" ToRole="ListadoFiscalizados" />
+  </EntityType>
+  <EntityType Name="ListadoFiscalizados">
+    <Key>
+      <PropertyRef Name="IdListadoFiscalizados" />
+    </Key>
+    <Property Name="IdListadoFiscalizados" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateScraping" Type="DateTime" Precision="3" />
+    <Property Name="Rut" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Entidad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="UrlRegistroDirector" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UrlListadoEmisor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ListadoDirectores" Relationship="CmfChileModel.FK__ListadoDi__Lista__1B0907CE" FromRole="ListadoFiscalizados" ToRole="ListadoDirectores" />
+  </EntityType>
+  <Association Name="FK__ListadoDi__Lista__1B0907CE">
+    <End Type="CmfChileModel.ListadoFiscalizados" Role="ListadoFiscalizados" Multiplicity="0..1" />
+    <End Type="CmfChileModel.ListadoDirectores" Role="ListadoDirectores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ListadoFiscalizados">
+        <PropertyRef Name="IdListadoFiscalizados" />
+      </Principal>
+      <Dependent Role="ListadoDirectores">
+        <PropertyRef Name="IdListadoFiscalizados" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

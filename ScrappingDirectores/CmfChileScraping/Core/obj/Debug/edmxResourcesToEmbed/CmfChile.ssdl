@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CmfChileModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ListadoDirectores">
+    <Key>
+      <PropertyRef Name="IdListadoDirectores" />
+    </Key>
+    <Property Name="IdListadoDirectores" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdListadoFiscalizados" Type="bigint" />
+    <Property Name="DateScraping" Type="datetime" />
+    <Property Name="Rut" Type="nvarchar" MaxLength="20" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Cargo" Type="nvarchar" MaxLength="500" />
+    <Property Name="FechaNombramiento" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ListadoFiscalizados">
+    <Key>
+      <PropertyRef Name="IdListadoFiscalizados" />
+    </Key>
+    <Property Name="IdListadoFiscalizados" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateScraping" Type="datetime" />
+    <Property Name="Rut" Type="nvarchar" MaxLength="20" />
+    <Property Name="Entidad" Type="nvarchar(max)" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="10" />
+    <Property Name="UrlRegistroDirector" Type="nvarchar(max)" />
+    <Property Name="UrlListadoEmisor" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK__ListadoDi__Lista__1B0907CE">
+    <End Role="ListadoFiscalizados" Type="Self.ListadoFiscalizados" Multiplicity="0..1" />
+    <End Role="ListadoDirectores" Type="Self.ListadoDirectores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ListadoFiscalizados">
+        <PropertyRef Name="IdListadoFiscalizados" />
+      </Principal>
+      <Dependent Role="ListadoDirectores">
+        <PropertyRef Name="IdListadoFiscalizados" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="ClearTables" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="CmfChileModelStoreContainer">
+    <EntitySet Name="ListadoDirectores" EntityType="Self.ListadoDirectores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ListadoFiscalizados" EntityType="Self.ListadoFiscalizados" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ListadoDi__Lista__1B0907CE" Association="Self.FK__ListadoDi__Lista__1B0907CE">
+      <End Role="ListadoFiscalizados" EntitySet="ListadoFiscalizados" />
+      <End Role="ListadoDirectores" EntitySet="ListadoDirectores" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

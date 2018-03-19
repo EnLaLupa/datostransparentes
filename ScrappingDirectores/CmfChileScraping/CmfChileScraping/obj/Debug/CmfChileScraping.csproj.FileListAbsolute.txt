@@ -1,0 +1,50 @@
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.csprojResolveAssemblyReference.cache
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.csproj.CoreCompileInputs.cache
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.exe.config
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.exe
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.pdb
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\Core.dll
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.dll
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\Core.pdb
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\Core.dll.config
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.xml
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.exe
+C:\Users\Lmleon\Desktop\Nueva carpeta (12)\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.pdb
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.exe.config
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.exe
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.pdb
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\Core.dll
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.dll
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\Core.pdb
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\Core.dll.config
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.xml
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.csprojResolveAssemblyReference.cache
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.exe
+C:\Users\Gonzalo\Desktop\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.pdb
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.exe.config
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.exe
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\CmfChileScraping.pdb
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\Core.dll
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.dll
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\Core.pdb
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\Core.dll.config
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.xml
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.csprojResolveAssemblyReference.cache
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.csproj.CoreCompileInputs.cache
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.exe
+C:\Users\Lmleon\Desktop\ScrappingDirectores\CmfChileScraping\CmfChileScraping\obj\Debug\CmfChileScraping.pdb

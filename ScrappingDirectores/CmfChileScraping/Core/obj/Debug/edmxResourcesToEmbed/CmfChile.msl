@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CmfChileModelStoreContainer" CdmEntityContainer="CmfChileEntities">
+    <EntitySetMapping Name="ListadoDirectores">
+      <EntityTypeMapping TypeName="CmfChileModel.ListadoDirectores">
+        <MappingFragment StoreEntitySet="ListadoDirectores">
+          <ScalarProperty Name="FechaNombramiento" ColumnName="FechaNombramiento" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Rut" ColumnName="Rut" />
+          <ScalarProperty Name="DateScraping" ColumnName="DateScraping" />
+          <ScalarProperty Name="IdListadoFiscalizados" ColumnName="IdListadoFiscalizados" />
+          <ScalarProperty Name="IdListadoDirectores" ColumnName="IdListadoDirectores" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListadoFiscalizados">
+      <EntityTypeMapping TypeName="CmfChileModel.ListadoFiscalizados">
+        <MappingFragment StoreEntitySet="ListadoFiscalizados">
+          <ScalarProperty Name="UrlListadoEmisor" ColumnName="UrlListadoEmisor" />
+          <ScalarProperty Name="UrlRegistroDirector" ColumnName="UrlRegistroDirector" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Entidad" ColumnName="Entidad" />
+          <ScalarProperty Name="Rut" ColumnName="Rut" />
+          <ScalarProperty Name="DateScraping" ColumnName="DateScraping" />
+          <ScalarProperty Name="IdListadoFiscalizados" ColumnName="IdListadoFiscalizados" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ClearTables" FunctionName="CmfChileModel.Store.ClearTables" />
+  </EntityContainerMapping>
+</Mapping>
